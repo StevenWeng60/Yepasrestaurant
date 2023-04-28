@@ -1,0 +1,145 @@
+:root{
+  margin:0;
+}
+
+body {
+  background: #FFFFF0;
+  margin:0;
+}
+
+/* HEADER ELEMENTS */
+header {
+  border-bottom: 2px solid black;
+  text-align:center;
+}
+
+header h1 {
+  font-size: 2em;
+  display:inline-block;
+}
+
+#yeburger {
+  display:inline-block;
+  height: 2em;
+  width: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+nav {
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+}
+
+.navitems {
+  display:flex;
+  justify-content: center;
+}
+
+.navitems li {
+  flex-grow: 1;
+  display:inline-block;
+}
+
+/* DEAL OF THE DAY ELEMENTS */
+
+.deals {
+  text-align:center;
+  padding-bottom: 4em;
+  background: #FAEBD7;
+}
+
+.deals h2{
+  display:block;
+  margin:auto;
+  padding: 1em;
+}
+
+.rotatingmenu {
+  position:relative;
+  width: 18em;
+  display:block;
+  margin:auto;
+  border: 5px solid black;
+  padding: 0.2em;
+}
+
+.rotatingmenu img {
+  height: 18em;
+  width: 18em;
+}
+
+.rotatingmenu h3 {
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.rotatingmenu p{
+  text-align:left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.rotatingmenu h4 {
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.leftarrow {
+  position:absolute;
+  left: -5em;
+  top: 10em;
+}
+
+.rightarrow {
+  position:absolute;
+  right: -5em;
+  top: 10em;
+}
+
+/* CUSTOMER REVIEWS ELEMENTS*/
+
+.customerreviews {
+  background:#FFFDD0;
+  text-align:center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+.reviews {
+  display:flex;
+  flex-direction: column;
+}
+
+.reviews li {
+  text-align: left;
+  list-style:none;
+  padding:0.5em;
+  margin: 0.5em;
+  box-sizing:border-box;
+  outline: 2px solid black;
+}
+
+.reviews li:hover {
+  background: #e3d1a8;
+  cursor:pointer;
+}
+
+.reviews li h4 {
+  margin: 0.2em;
+}
+.reviews li p {
+  margin: 0.2em;
+}
+
+/* FOOTER */
+footer{
+  background: #43464b;
+  color: white;
+  border-top: 1px solid black;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  padding-left: 0.2em;
+}
