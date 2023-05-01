@@ -143,3 +143,11 @@ reviewsli.forEach((review) => {
     reviewdescription.textContent = reviews[randomreview].review;
   })
 })
+
+// handle form submissions
+const form = document.getElementsByClassName('subscribeform')[0];
+const submitformbtn = document.getElementsByClassName('submitsubscribe')[0];
+
+submitformbtn.addEventListener("click", () => {
+  form.reset();
+});
