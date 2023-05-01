@@ -42,12 +42,25 @@ nav {
   display:inline-block;
 }
 
+/* MAIN CONTENT ELEMENTS */
+.maincontent {
+  display:flex;
+  justify-content:space-around;
+  background: #FAEBD7;
+    padding-bottom: 4em;
+}
+
+#operationhours{
+  margin-top: 4em;
+  border:1px solid black;
+  width:29em;
+  height:29m;
+}
+
 /* DEAL OF THE DAY ELEMENTS */
 
 .deals {
   text-align:center;
-  padding-bottom: 4em;
-  background: #FAEBD7;
 }
 
 .deals h2{
@@ -98,6 +111,14 @@ nav {
   position:absolute;
   right: -5em;
   top: 10em;
+}
+
+/* SUBSCRIBE FORM ELEMENTS */
+.subscribe {
+  text-align:center;
+  background:#98FB98;
+  margin:1em;
+  padding: 2em;
 }
 
 /* CUSTOMER REVIEWS ELEMENTS*/

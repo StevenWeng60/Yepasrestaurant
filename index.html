@@ -23,15 +23,31 @@
   </header>
 
   <main>
-    <div class="deals">
-      <h2>Deals of the day</h2>
-      <div class="rotatingmenu">
-        <img id="dealsimg" src="static/yepasburger.jpg">
-        <button class="leftarrow">Left</button>
-        <button class="rightarrow">Right</button>
-        <h3 id="dealstitle">Nice and yummy burger</h3>
-        <p id="dealsdescription">Made-from-scratch. This is a secret recipe that has been perfected throughout the years. Comes with fries and a drink</p>
-        <h4 id="dealsprice">$7.99</h4>
+    <div class="maincontent">
+      <img id="operationhours"src="static/operationhours.jpg" alt="hoursofoperation">
+      <div class="deals">
+        <h2>Deals of the day</h2>
+        <div class="rotatingmenu">
+          <img id="dealsimg" src="static/yepasburger.jpg">
+          <button class="leftarrow">Left</button>
+          <button class="rightarrow">Right</button>
+          <h3 id="dealstitle">Nice and yummy burger</h3>
+          <p id="dealsdescription">Made-from-scratch. This is a secret recipe that has been perfected throughout the years. Comes with fries and a drink</p>
+          <h4 id="dealsprice">$7.99</h4>
+        </div>
+      </div>
+      <div class="subscribe">
+        <h2>Subscribe to Las Yepas!</h2>
+        <form action="/" class="subscribeform">
+          <label for="firstname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lastname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="email">Email address:</label><br>
+          <input type="text" id="email" name="email"><br>
+        </form>
+        <br>
+        <button type="submit" class="submitsubscribe">Submit</button>
       </div>
     </div>
     <div class="customerreviews">
